@@ -1,4 +1,3 @@
-
 import { Product, Category, Brand } from "@/types/product";
 
 export const categories: Category[] = [
@@ -109,6 +108,69 @@ export const brands: Brand[] = [
     slug: "triumph",
     logo: "/images/brands/triumph.png",
     description: "British manufacturer with a rich history and diverse motorcycle lineup"
+  },
+  {
+    id: "mv-agusta",
+    name: "MV Agusta",
+    slug: "mv-agusta",
+    logo: "/images/brands/mv-agusta.png",
+    description: "Italian manufacturer known for exotic high-performance motorcycles with artistic design"
+  },
+  {
+    id: "indian",
+    name: "Indian",
+    slug: "indian",
+    logo: "/images/brands/indian.png",
+    description: "Historic American brand producing premium cruisers and touring motorcycles"
+  },
+  {
+    id: "norton",
+    name: "Norton",
+    slug: "norton",
+    logo: "/images/brands/norton.png",
+    description: "Legendary British manufacturer with a focus on exclusive hand-built motorcycles"
+  },
+  {
+    id: "tvs",
+    name: "TVS",
+    slug: "tvs",
+    logo: "/images/brands/tvs.png",
+    description: "Indian manufacturer producing a range of motorcycles from entry-level to premium sports models"
+  },
+  {
+    id: "husqvarna",
+    name: "Husqvarna",
+    slug: "husqvarna",
+    logo: "/images/brands/husqvarna.png",
+    description: "Swedish brand known for distinctive design and performance-oriented motorcycles"
+  },
+  {
+    id: "cfmoto",
+    name: "CFMoto",
+    slug: "cfmoto",
+    logo: "/images/brands/cfmoto.png",
+    description: "Chinese manufacturer producing value-oriented motorcycles with modern technology"
+  },
+  {
+    id: "zero",
+    name: "Zero",
+    slug: "zero",
+    logo: "/images/brands/zero.png",
+    description: "American company specializing in electric motorcycles with advanced battery technology"
+  },
+  {
+    id: "jawa",
+    name: "Jawa",
+    slug: "jawa",
+    logo: "/images/brands/jawa.png",
+    description: "Historic Czech brand revived in India, producing classic-styled motorcycles"
+  },
+  {
+    id: "moto-guzzi",
+    name: "Moto Guzzi",
+    slug: "moto-guzzi",
+    logo: "/images/brands/moto-guzzi.png",
+    description: "Italy's oldest motorcycle manufacturer known for its unique transverse V-twin engines"
   }
 ];
 
